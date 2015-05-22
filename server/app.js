@@ -5,6 +5,9 @@ var rewrite = require('koa-rewrite');
 var bodyParser = require('koa-body-parser');
 var routes = require('./routes')
 
+
+var port = process.env.PORT || 3000;
+
 app
 	.use(rewrite('/', '/index.html'))
 	.use(rewrite('/*.(html|js|css|jpg)', '/public/$1.$2'))
@@ -13,6 +16,6 @@ app
 
 routes(app);
 
-app.listen(3000);
+app.listen(port);
 
-console.log('App now listening at http://localhost:3000/');
+console.log('App now listening at port ' + port);
