@@ -1,0 +1,29 @@
+{
+  "name": "bio",
+  "version": "1.0.0",
+  "description": "Taco bio website",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taco/bio"
+  },
+  "keywords": [
+    "taco"
+  ],
+  "author": "Taco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taco/bio/issues"
+  },
+  "homepage": "https://github.com/taco/bio",
+  "dependencies": {
+    "koa": "^0.20.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-rewrite": "^1.1.0",
+    "koa-router": "^5.0.1",
+    "koa-static-folder": "^0.1.5"
+  }
+}
