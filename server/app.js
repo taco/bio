@@ -7,7 +7,7 @@ var routes = require('./routes')
 
 app
 	.use(rewrite('/', '/index.html'))
-	.use(rewrite('/*.(html|js|css)', '/public/$1.$2'))
+	.use(rewrite('/*.(html|js|css|jpg)', '/public/$1.$2'))
 	.use(serve('./public'))
 	.use(bodyParser());
 
