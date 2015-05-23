@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+#opener-spacer {
+	height: 10000px;
+}
+
+#opener {
+	background-image: url('https://c1.staticflickr.com/9/8767/17795097338_f21e0a24dd_o.jpg');
+	background-position-x: center;
+	background-repeat: no-repeat;
+
+	bottom: 0;
+	height: 2667px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
