@@ -9,17 +9,17 @@ body {
 }
 
 #opener-spacer {
-	height: 10000px;
+	height: 6000px;
 }
 
 #opener {
 	background-image: url('https://c1.staticflickr.com/9/8767/17795097338_f21e0a24dd_o.jpg');
 	background-position-x: center;
 	background-repeat: no-repeat;
-
-	bottom: 0;
 	height: 2667px;
+	opacity: 1;
 	position: fixed;
 	text-align: center;
+	top: 0vh;
 	width: 100%;
 }
