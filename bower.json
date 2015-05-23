@@ -1,0 +1,14 @@
+{
+  "name": "bio",
+  "version": "1.0.0",
+  "homepage": "https://github.com/taco/bio",
+  "authors": [
+    "Taco <travis_johnson@volusion.com>"
+  ],
+  "description": "Taco bio site",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "skrollr": "~0.6.29"
+  }
+}
